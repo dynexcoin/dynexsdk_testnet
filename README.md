@@ -13,7 +13,7 @@ cp dynex-testnet-bnb <PATH-OF-YOUR-SDK-PROGRAM>/tmp
 
 # Usage
 
-To enable sampling on the local machine, specify the parameter "testnet=False":
+To enable sampling on the local machine, specify the parameter "mainnet=False":
 
 ```
 model = dynex.BQM(bqm, logging=True);
