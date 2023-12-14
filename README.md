@@ -1,5 +1,5 @@
 # Dynex SDK Local Testnet Sampler
-Dynex is the world’s first neuromorphic supercomputing blockchain based on the DynexSolve chip algorithm, a Proof-of-Useful-Work (PoUW) approach to solving real-world problems. The Dynex SDK is used to interact and compute on the Dynex Platform. Use this repository to enable "testnet=False" functionality in your Dynex SDK. It allows sampling of Qubo/Ising computing problems on the local machine before computing on the Dynex Neuromorphic Computing cloud. Mainly used for prototyping and testing of code before incurring costs.
+Dynex is the world’s first neuromorphic supercomputing blockchain based on the DynexSolve chip algorithm, a Proof-of-Useful-Work (PoUW) approach to solving real-world problems. The Dynex SDK is used to interact and compute on the Dynex Platform. Use this repository to enable "mainnet=False" functionality in your Dynex SDK. It allows sampling of Qubo/Ising computing problems on the local machine before computing on the Dynex Neuromorphic Computing cloud. Mainly used for prototyping and testing of code before incurring costs.
 
 # Build from source & Installation
 
