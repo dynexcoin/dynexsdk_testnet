@@ -3,12 +3,12 @@ Dynex is the world’s first neuromorphic supercomputing blockchain based on the
 
 # Build from source & Installation
 
-Build the binary with the following commands and copy it into the folder /tmp in the directory where your Python program is located:
+Build the binary with the following commands and copy it into the folder ```/testnet``` in the directory where your Python program is located:
 
 ```
 git clone https://github.com/dynexcoin/dynexsdk_testnet.git
 ./build.sh
-cp dynex-testnet-bnb <PATH-OF-YOUR-SDK-PROGRAM>/tmp
+cp dynex-testnet-bnb <PATH-OF-YOUR-SDK-PROGRAM>/testnet
 ```
 
 # Usage
@@ -18,6 +18,6 @@ To enable sampling on the local machine, specify the parameter "mainnet=False":
 ```
 model = dynex.BQM(bqm, logging=True);
 sampler = dynex.DynexSampler(model,  mainnet=False);
-sampleset = sampler.sample(num_reads=20000, annealing_time = 200);
+sampleset = sampler.sample(num_reads=20000, annealing_time = 200, debugging=True);
 ```
 
